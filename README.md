@@ -23,6 +23,30 @@ git remote add origin https://github.com/Luxlinna/lia-report-presentation.git
 git push -u origin main
 
 
+# Navigate to your project directory
+cd /path/to/your/project
+
+# Check if Repository is Initialized
+git status
+
+# Initialize git if it's not already initialized
+git init
+
+# Add all files
+git add .
+
+# Commit changes
+git commit -m "Initial commit"
+
+# Create main branch if it doesn't exist
+git checkout -b main
+
+# (Optional) Set remote origin if not set
+git remote add origin https://github.com/Luxlinna/lia-report-presentation.git
+
+# Push to GitHub
+git push -u origin main
+
 
 
 
