@@ -1,0 +1,21 @@
+/* index.css or App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-container {
+    @apply w-full h-auto max-w-[768px] sm:min-w-[400px] flex flex-col justify-center border-2 items-center px-4 py-5 bg-gray-100 rounded-3xl mx-auto overflow-y-auto;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .content-container {
+    @apply items-center justify-center p-4 bg-gray-200 rounded-3xl;
+  }
+
+  .arrow_back {
+    @apply text-white hover:text-red-700 ml-2 items-start bg-green-700 py-1 px-2 rounded-full;
+  }
